@@ -1,0 +1,17 @@
+import turtle
+
+screen = turtle.Screen()
+screen.setup(500, 500)
+screen.bgcolor("pink")
+
+t = turtle.Turtle()
+t.fillcolor("red")
+t.begin_fill()
+
+for _ in range(5):
+    t.forward(100)
+    t.left(350/5)
+
+t.end_fill()
+
+screen.mainloop()
